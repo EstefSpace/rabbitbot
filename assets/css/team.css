@@ -1,0 +1,58 @@
+.section-main {
+    min-width: 10%;
+    position: relative;
+    display: block;
+    padding: 20px; /* Añadido para algo de espaciado */
+}
+
+.section-in {
+    width: 100%;
+    padding: 0 40px;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 900px; /* Ajustado para un ancho máximo más razonable */
+    position: relative;
+    z-index: 5;
+}
+
+.staff-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.staff-card {
+    flex: 1 1 calc(30% - 30px); /* Ajuste para que quepan 4 por fila con márgenes */
+    margin: 10px;
+    text-align: center;
+    background-color: #bbb3aa;
+    border-radius: 10px;
+    padding: 10px; /* Aumentado para más espaciado */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.staff-image img {
+    width: 100px; /* Ajuste para un tamaño más razonable */
+    height: 100px; /* Ajuste para mantener la proporción */
+    border-radius: 50%;
+}
+
+.staff-name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+.staff-role {
+    font-weight: bold;
+    color: #000000;
+}
+
+.owner2 {
+    background-color: #990000;
+}
+
+.developer {
+    background-color: #99ccff;
+}

@@ -1,0 +1,122 @@
+/* Animacion index bajada */
+/* Estilos para la sección de precios y beneficios */
+#pricing {
+    padding: 3rem 0;
+    background: #191c67;
+    /* Fondo diferente */
+    color: white;
+    text-align: center;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    /* espacio entre botones */
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.pricing-card,
+.benefit {
+    background: #2c3e50;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.pricing-card.fade-in,
+.benefit.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.pricing-card h2,
+.benefit h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.pricing-card p,
+.benefit ul {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-card ul,
+.benefit ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.pricing-card ul li,
+.benefit ul li {
+    margin-bottom: 0.5rem;
+}
+
+.pricing-card .action_btn,
+.benefit .action_btn {
+    background-color: rgb(21, 94, 94);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.pricing-card .action_btn:hover,
+.benefit .action_btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+.pricing-card .action_btn:active,
+.benefit .action_btn:active {
+    scale: 0.95;
+}
+
+/* Botones */
+.pricing-buttons {
+    margin-top: 10rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.pricing-buttons.fade-in {
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.pricing-buttons button {
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    margin: 0 2.5rem;
+    cursor: pointer;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.pricing-buttons button:hover {
+    background-color: #1a2d3b;
+}
+
+/* Animacion index bajada */

@@ -1,0 +1,140 @@
+/*Webhook css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(13, 141, 141);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.opcional {
+    background-color: #cc3636;
+}
+
+
+
+label:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+label:active {
+    scale: 0.95;
+
+}
+
+button {
+    background-color: rgb(13, 141, 141);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+}
+
+button:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+textarea {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input {
+    width: 50%;
+    height: 75px;
+    padding: 10px;
+    font-size: 16px;
+   
+    border-radius: 4px;
+    resize: vertical;
+}
+
+textarea:hover {
+    border-color: #ccc;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+textarea:disabled {
+    background-color: #f5f5f5;
+}
+
+
+.advertencia {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(190, 13, 13);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    
+}
